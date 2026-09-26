@@ -1,0 +1,25 @@
+# Local Python environments and generated files
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local credentials; keep configuration examples
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Evaluation state and runtime metrics
+.deepeval/
+.promptfoo/
+llm-multiroute/metrics/
+
+# Local dependencies and editor/system files
+node_modules/
+.DS_Store
+Thumbs.db
